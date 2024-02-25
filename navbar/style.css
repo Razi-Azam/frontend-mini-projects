@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --floral-white: #FFFCF2;
+    --black-olive: #363732;
+    --vista-blue: #8390FA;
+    --timberwolf: #CCC5B9;
+    --flame: #EB5E28;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--floral-white);
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: var(--timberwolf);
+}
+
+.navbar {
+    background-color: var(--black-olive);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 5rem;
+}
+
+.logo h1 {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#check {
+ display: none;
+}
+
+.btnCheck {
+    display: none;
+    font-size: 40px;
+}
+
+.nav-section ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-section ul li a {
+    text-decoration: none;
+    padding: 8px 15px;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.nav-section ul li a:hover {
+    background-color: var(--timberwolf);
+    border-radius: 7px;
+    color: var(--black-olive);
+}
+
+@media screen and (max-width:805px) {
+    .navbar {
+        background-color: var(--black-olive);
+        display: flex;
+        justify-content: space-around;
+        line-height: 5rem;
+        z-index: 1;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        background-color: var(--black-olive);
+        width: 100%;
+        height: 100vh;
+        top: -100vh;
+        left: 0%;
+        padding-left: 40px;
+        transition: all 1s ease-in;
+        z-index: -1;
+    }
+
+    .btnCheck {
+        display: block;
+    }
+
+    #check:checked ~ .list {
+      top: 5rem;
+    }
+    
+}
