@@ -1,5 +1,5 @@
 # frontend-mini-projects
-This repo contains simple mini projects in HTML, CSS, and JS. This is helpful for frontend interview practice.
+This repo contains simple mini-projects in HTML, CSS, and JS. This is helpful for front-end interview practice.
 
 ## Mini Projects:
 ### [1] Navbar using HTML and CSS ➡️ [view live](https://razi-azam.github.io/frontend-mini-projects/navbar/)
