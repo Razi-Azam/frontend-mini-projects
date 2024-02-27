@@ -8,4 +8,4 @@ This repo contains simple mini-projects in HTML, CSS, and JS. This is helpful fo
 
 ### [2] Sticy CTA Bar ➡️ 👆🏻 [view live](https://razi-azam.github.io/frontend-mini-projects/sticky-cta-bar/)
 
-  
+### [2] Sticy CTA Bar ➡️ 👆🏻 [view live](https://razi-azam.github.io/frontend-mini-projects/Calculator/)
