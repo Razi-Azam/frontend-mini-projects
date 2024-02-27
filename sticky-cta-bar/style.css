@@ -1,0 +1,117 @@
+:root {
+    --primaryColor: rgb(227, 255, 246);
+    --secondaryColor: rgb(48, 70, 63);
+    --shadowColor: rgba(69, 71, 71, 0.534);
+    --primaryFontSize: 25px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);
+    /* text-shadow: -18px -18px 2px var(--shadowColor); */
+    text-indent: calc(4 * 16px); 
+}
+
+ul li:nth-child(3n) {
+    background-color: black;
+    color: white;
+}
+
+.Tags{
+    font-size: var(--primaryFontSize);
+    overflow: auto;
+    resize:both;
+}
+
+#marquee-container {
+    width: 100%;
+    height: 560px;
+    color:rgb(0, 0, 0);
+    background-color: #FFD23C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#marquee-container > .marquee-section-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#marquee-container > .marquee-section-left > h1 {
+    padding-left: 20px;
+    width: 400px;
+    border: 1px solid red;
+}
+
+#marquee-container > .marquee-section-right {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#marquee-container > .marquee-section-right > img {
+    width: 600px;
+    height: 294px;
+}
+
+#sticky-cta-trial-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 8px 0;
+    background-color: #2A2AAA;
+    color: #FFFFFF;
+    display: flex;
+    /* visibility:visible; */
+}
+
+.sticky-section-left {
+    width: 50%;
+    float: left;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.sticky-section-right {
+    width: 50%;
+    float: right;
+    display: flex;
+    justify-content: right;
+    padding-right: 100px;
+    align-items: center;
+    font-size: 17px;
+}
+
+.sticky-section-right > #buy-now {
+    background-color: transparent;
+    border: none;
+    color: #ffff;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.sticky-section-right > #free-trial {
+    background-color: #0265DC;
+    border: 1px solid #0265DC;
+    border-radius: 20px;
+    color: #ffff;
+    font-weight: bold;
+    width: 108px;
+    height: 40px;
+    cursor: pointer;
+    transition: all 0.3ms ease-out;
+}
+
+/* #marquee-container + #sticky-cta-trial-bar {
+    visibility: visible;
+} */
