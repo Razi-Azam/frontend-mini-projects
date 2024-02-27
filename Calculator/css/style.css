@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #04041e;
+    background-size: 22px 22px;
+    background-image:  repeating-linear-gradient(to right, #1c1c41, #1c1c41 1.1px, #04041e 1.1px, #04041e);
+}
+
+.container {
+    border: 1px solid rgb(252, 252, 252);
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    box-shadow: 0px 3px 10px rgb(177, 171, 171);
+    background-color: rgba(25, 26, 39, 0.788);
+    border: 6px inset rgba(247, 247, 247, 0.185);
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr {
+    color: aliceblue;
+    height: 20px;
+    width: 20px;
+}
+
+td {
+    padding: 10px 0px 10px 0px;
+}
+
+button {
+    border: none;
+    height: 50px;
+    width: 80px;
+    border-radius: 15px;
+    background-color: rgba(214, 238, 238, 0.87);
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+input {
+    height: 50px;
+    width: 350px;
+    border-radius: 15px;
+    font-size: 30px;
+    text-align: center;
+    outline: none;
+    background-color: rgba(198, 243, 252, 0.671);
+    cursor:not-allowed;
+    outline: 2px inset rgba(175, 170, 170, 0.63);
+}
+
+.wide-button {
+    width: 150px;
+}
+
+button:hover {
+    background-color: rgba(154, 175, 175, 0.87);
+    border: 1px solid white;
+    color: white;
+}
+
+.btn-orange{
+    background-color: rgba(255, 68, 0, 0.822);
+    border: none;
+    color: rgba(255, 255, 255, 0.774);
+}
+
+.btn-orange:hover{
+    background-color: rgb(146, 48, 13);
+}
+
+.btn-blue{
+    background-color: rgba(109, 163, 243, 0.822);
+    border: none;
+    color: rgba(255, 255, 255, 0.774);
+}
+
+.btn-blue:hover{
+    background-color: rgb(47, 104, 189, 0.822);
+}
