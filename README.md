@@ -15,9 +15,14 @@ In this project, a sticky bar with buttons will show up at the bottom of the pag
 #### Preview: 😍
 <img src="https://github.com/Razi-Azam/frontend-mini-projects/assets/106505820/ad52acbe-9af3-407d-bc76-1edb663874fd" width="700" height="350">
 
-### [2] Sticy CTA Bar ➡️ 👆🏻 [view live](https://razi-azam.github.io/frontend-mini-projects/Calculator/)
+### [3] Sticy CTA Bar ➡️ 👆🏻 [view live](https://razi-azam.github.io/frontend-mini-projects/Calculator/)
 #### Description: ℹ️
 This mini project features a simple calculator app with a unique design by Razi. It can add, multiply, divide, and subtract. It also prevents users from making unnecessary calculations like "7+--2"; it displays the expression but doesn't provide the result because it's incorrect.
 #### Preview: 😍
 <img src="https://github.com/Razi-Azam/frontend-mini-projects/assets/106505820/4cef122d-2f46-4ed3-93ee-c552d7a7cb5a" width="700" height="350">
 
+### [4] Modal Popup Box ➡️ 👆🏻 [view live](https://razi-azam.github.io/frontend-mini-projects/modal-popup-box/)
+#### Description: ℹ️
+This mini project features a responsive modal popup box that opens when the subscribe button is clicked.
+#### Preview: 😍
+<img src="https://github.com/Razi-Azam/frontend-mini-projects/assets/106505820/150529c2-20d4-4b3f-bc5a-e11a44b7c914" width="700" height="350">
