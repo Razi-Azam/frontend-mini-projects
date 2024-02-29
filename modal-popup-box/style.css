@@ -45,6 +45,33 @@ body {
     background-color: var(--primary-bg-color);
 }
 
+.tooltip {
+    position: absolute;
+    top: 12rem;
+    display: none;
+    background-color: var(--secondary-bg-color);
+    color: var(--primary-text-color);
+    width: 10rem;;
+    padding: 20px;
+    border-radius: 18px;
+    text-align: center;
+    animation: glow 0.8s linear;
+}
+
+@keyframes glow {
+    0%,30% {
+      transform: scale(0.8);
+    }
+    30%,
+    60% {
+        transform: scale(0.9);
+    }
+    60%,
+    100% {
+        transform: scale(1);
+    }
+  }
+
 .modal-container {
     position: absolute;
     top: -5%;
