@@ -26,3 +26,9 @@ This mini project features a simple calculator app with a unique design by Razi.
 This mini project features a responsive modal popup box that opens when the subscribe button is clicked.
 #### Preview: 😍
 <img src="https://github.com/Razi-Azam/frontend-mini-projects/assets/106505820/150529c2-20d4-4b3f-bc5a-e11a44b7c914" width="700" height="350">
+
+### [4] Issue Tracker App ➡️ 👆🏻 [view live](https://razi-azam.github.io/frontend-mini-projects/issue-tracker-app/)
+#### Description: ℹ️
+This mini project features a issue tracker app that lets user insert, view, update, and delete the issues.
+#### Preview: 😍
+<img src="# width="700" height="350">
