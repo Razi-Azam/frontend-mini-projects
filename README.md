@@ -31,4 +31,4 @@ This mini project features a responsive modal popup box that opens when the subs
 #### Description: ℹ️
 This mini project features a issue tracker app that lets user insert, view, update, and delete the issues.
 #### Preview: 😍
-<img src="# width="700" height="350">
+<img src="https://github.com/Razi-Azam/frontend-mini-projects/blob/main/issue-tracker-app/output_screenshots/1_enter_an_issue.png" width="700" height="350">
