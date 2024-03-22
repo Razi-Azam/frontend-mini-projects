@@ -32,3 +32,9 @@ This mini project features a responsive modal popup box that opens when the subs
 This mini project features a issue tracker app that lets user insert, view, update, and delete the issues.
 #### Preview: 😍
 <img src="https://github.com/Razi-Azam/frontend-mini-projects/blob/main/issue-tracker-app/output_screenshots/1_enter_an_issue.png" width="700" height="350">
+
+### [5] Digital Clock ➡️ 👆🏻 [view live](https://razi-azam.github.io/frontend-mini-projects/Digital-Clock/digital-clock.html)
+#### Description: ℹ️
+This mini project features a digital clock app using vanilla JS.
+#### Preview: 😍
+<img src="https://github.com/Razi-Azam/frontend-mini-projects/assets/106505820/47fa1768-73bd-4d66-a3df-79830d169c02" width="700" height="350">
